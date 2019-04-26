@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #F7A8A6;
+	background-position: center;
+
+
+}
+.centeredandwidth{
+	width:900px;
+	margin: 0 auto;
+	text-align: center;
+}
+#textblock{
+	font-family: arial, sans serif;
+	font-size: 1.2em;
+	color:white;
+	text-align: center;   
+}
+#header{
+	height:455px;
+	
+}
+#belowheader{
+	height:650px ;
+}
+#menu{
+	height:1920px ;
+}
+#ourstory{
+	height:210px ;
+}
+#reviews{
+	height:550px ;
+}
+#visitus{
+	height:1000px ;
+}
+#followus{
+	height:270px ;
+}
+#instagramtag{
+	height:20px ;	
+	font-family: arial, sans serif;
+	font-size: 3em;
+	color:#ffffff;
+	text-align: center;
+
+}
+/*This removes teh hyperlink underscore*/
+#myLink, a#myLink, #myLink p, #myLink div, #navigation a{
+	text-decoration:none;
+}
+
+/*This removes the bullet icons from the unordered list*/
+#navigation ul{
+	list-style-type: none;
+}
+/* This makes the list display horizontaly*/
+#navigation ul li{
+	display: inline-block;
+	width: 185px;
+	margin:120px;
+	padding: 30px 0px 30px 100px;
+	margin: 0px 50px 0px 50px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #f1100a;
+	color:#e8e8e8;
+	font-family: arial, sans serif;
+	text-transform: uppercase;
+	 border: none;
+  
+}
+
+#navigation ul li:hover{
+	color:#f16e6a;
+}
+
+#navigation ul li:visited{
+	color:#f7a8a6;
+	background-color: #e796f2;
+	
+}
+#navigation ul li:active{
+	color:#26e9ff;
+}
+#instagramtag{
+	color: #ffffff;
+}
+#instagramtag:hover{
+	color: #f16e6a;
+}
+#instagramtag:visited{
+	color:#000000;
+}
+/*This removes teh hyperlink underscore*/
+#myLink, a#myLink, #myLink p, #myLink div, #navigation a{
+	text-decoration:none;
+}
+#instapics{
+	height:250px ;
+}
+#footer{
+	height:91px ;
+position:0 0 0 0;
+
+}
