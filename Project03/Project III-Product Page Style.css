@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width: 950px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	}
+
+#peach{
+	width:950px;
+	height: 300px;
+	background-color: #f18585;
+	position: centered;
+	top:0;
+	padding-top: 60px;
+	left:350px;
+	margin: 0 auto;
+}
+
+#pink{
+	width:950px;
+	height: 50px;
+	background-color: #f8b0b0;
+	position: absolute;
+	top: 250px;
+	padding-top: 25px;
+}
+
+#white{
+	width:500px;
+	height: 500px;
+	background-color: #f8b0b0;
+	position:left;
+	top:200px;
+	padding-top:300px;
+	border: 150px solid white
+	left:100px;
+	margin: 0 auto;
+	}
+
+#white a strong{
+	font size: 10em;
+	color:ffffff;
+	}
+
+#Ingredients{
+	width:500px;
+	height: 200px;
+	background-color: #f8b0b0;
+	position:left;
+	top:0px;
+	padding-top:0px;
+	border: 0px solid white
+	left:100px;
+	margin: 0 auto;
+}
+#Ingredients a strong{
+	color:#000000;
+
+
+}
+#Vendors{
+	width:500px;
+	height: 400px;
+	background-color: #f8b0b0;
+	position:left;
+	top:0px;
+	padding-top:20px;
+	border: 50px solid white
+	left:50px;
+	margin: 0 auto;
+}
+
+.centered{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#imagery{
+	width: 100px
+}
+
+#peach a{
+	color:#ffffff;
+	padding-top:10px;
+}
+
+#peach a strong{ /*family hierarchy edit*/
+	font size: 1em;
+}
+h4{
+	font-size: 2em;
+	color:#000000;
+	font-family: arial , didot, serif;
+}
+}
+h1{
+	font-size: 1em;
+	color:#000000;
+	font-family: arial , didot, serif;
+}
