@@ -1,0 +1,114 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #a0000c;
+	font-family: "Arial ,Helvetica Neue",Helvetica,sans-serif;
+    font-size: 12px;
+}
+.centeredandwidth{
+	width:900px;
+	margin: 0 auto;
+	text-align: center;
+}
+#header{
+	height:200px;
+	
+}
+/*This removes the hyperlink underscore*/
+#myLink, a#myLink, #myLink p, #myLink div, #navigation a{
+	text-decoration:none;
+}
+
+/*This removes the bullet icons from the unordered list*/
+#navigation ul{
+	list-style-type: none;
+}
+/* This makes the list display horizontaly*/
+#navigation ul li{
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: static;
+  width: 330px;
+  margin: 0px 0px 0px 50px;
+   
+
+}
+
+#navigation ul li:hover{
+  background-color: #e16179;
+  color: white;
+}
+
+#navigation ul li:visited{
+	color:#f7a8a6;
+	background-color: #e796f2;
+	
+}
+#navigation ul li:active{
+	color:#26e9ff;
+
+}
+#BgActors{
+	display: block;
+	margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+
+}
+.movie{
+	display: block;
+	margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	top:-350px;
+	padding-top: 0px;
+}
+#Poster{
+	height:600px;
+}
+#Synopsis{
+	height: 320px;
+}
+#MovieTrailer{
+	height:500px;
+}
+#Actors{
+	height:1300px;
+}
+#Directors{
+	height:100px;
+}
+#FullCast{
+	height:100px;
+}
+#Critics{
+	height:800px;
+}
+#MovieGallery{
+	height:500px;
+}
+#logos{
+	height:200px;
+}
+h1{
+	font-size: 1em;
+	color:#a0000c;
+	font-family: arial , didot, serif;
+}
+h2{
+	font-size: 1em;
+	color:#FFFFFF;
+	font-family: arial , didot, serif;
+}
