@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #F7A8A6;
+    background-position: center;
+}
+#mainContainer{
+    width: 480px;
+    background-color: #f7a8a6;
+    text-align: center;
+	
+}
+.centered{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.centeredandwidth{
+	width:480px;
+	margin: 0 auto;
+	text-align: center;
+}
+#textblock{
+	font-family: arial, sans serif;
+	font-size: 1.2em;
+	color:white;
+	text-align: center;   
+}
+#header{
+    height: 237.399px;
+	
+}
+#belowheader{
+    height: 235px;
+}
+#menu{
+    height: 1000.473px;
+}
+#ourstoryreviews{
+    height: 110.133px;
+}
+#ourstory{
+	font-family: arial, sans serif;
+	font-size: 1.2em;
+	color:white;
+	text-align: center;   
+}
+#reviews{
+	height:145.795px ;
+}
+#visitus{
+	height:524.441px ;
+}
+#followus{
+	height:141.599px ;
+}
+#instagramtag{
+	height:20px ;	
+	font-family: arial, sans serif;
+	font-size: 3em;
+	color:#ffffff;
+	text-align: center;
+
+}
+/*This removes teh hyperlink underscore*/
+#myLink, a#myLink, #myLink p, #myLink div, #navigation a{
+	text-decoration:none;
+}
+
+/*This removes the bullet icons from the unordered list*/
+#navigation ul{
+	list-style-type: none;
+}
+/* This makes the list display horizontaly*/
+#navigation ul li{
+	display: inline-block;
+	width: 100px;
+	margin:20px;
+	padding: 10px 10px 10px 10px;
+	background-color: #f1100a;
+	text-align: center;
+	color:#e8e8e8;
+	font-family: arial, sans serif;
+	text-transform: uppercase;
+
+}
+
+#navigation ul li:hover{
+	color:#f16e6a;
+}
+
+#navigation ul li:visited{
+    color: #f7a8a6;
+    background-color: #F99395;
+	
+}
+#navigation ul li:active{
+	color:#26e9ff;
+}
+#instagramtag{
+	color: #ffffff;
+}
+#instagramtag:hover{
+	color: #f16e6a;
+}
+#instagramtag:visited{
+	color:#000000;
+}
+/*This removes teh hyperlink underscore*/
+#myLink, a#myLink, #myLink p, #myLink div, #navigation a{
+	text-decoration:none;
+}
+#instapics{
+	height:192.76px ;
+}
+#footer{
+    height: 47.724px;
+    position: 0 0 0 0;
+
+}
+
+@media (max-width: 768px){
+}
