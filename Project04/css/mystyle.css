@@ -1,0 +1,44 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url("../images/Web Design Project IV Invitation BG-01.png");
+}
+.centeredandwidth{
+	width:575px;
+	margin: 0 auto;
+	text-align: center;
+}
+#header{
+	height:200px;
+	background-color:#c7d9cb;
+
+}
+#launchparty{
+	height:184px ;
+	background-color:#c7d9cb;
+	
+}
+#specialguest{
+	height:93px ;
+	background-color:#c7d9cb;
+}
+#datetimeplace{
+	height:172px ;
+	background-color:#c7d9cb;
+}
+#importantinfo{
+	height:167px ;
+	background-color:#c7d9cb;
+}
+#logo{
+	height:500px ;
+	background-color:#c7d9cb;
+}
+#sponsor{
+	height:250px ;
+	background-color:#c7d9cb;
+}
+#return{
+	height:350px ;
+	background-color:#c7d9cb;
+}
